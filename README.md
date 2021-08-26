@@ -57,7 +57,11 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 ```
 yum makecache
 ```
-
+## debian换源
+```
+deb http://mirrors.ustc.edu.cn/debian stable main contrib non-free
+deb http://mirrors.ustc.edu.cn/debian stable-updates main contrib non-free
+```
 
 
 ## 安装vmtools
@@ -145,7 +149,36 @@ sudo apt-get install linux-image-<版本号>-generic linux-headers-<版本号>-g
 sudo update-grub 
 ```
 
+## 下载并配置plank
 
+### 安装plank
+
+```
+sudo apt-get install plank
+```
+
+### 在Tweak中startup加入plank
+
+![img](https://gitee.com/teng-huaian/picupload1/raw/master/kali/20200821153507102.png)
+
+### 关闭Ubuntu自带的Ubuntu Dock
+
+```
+sudo apt remove gnome-shell-extension-ubuntu-dock
+```
+
+<font size=4>下载mcOS_Mojave.zip</font>
+
+https://www.gnome-look.org/p/1248226/
+
+<font size=4>移动</font>
+
+```
+unzip -qq mcOS_Mojave.zip
+mv mcOS_Mojave\ /home/.local/share/plank/themes
+```
+
+### 重启
 
 # 各种软件的安装
 

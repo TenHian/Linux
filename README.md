@@ -59,8 +59,15 @@ yum makecache
 ```
 ## debian换源
 ```
-deb http://mirrors.ustc.edu.cn/debian stable main contrib non-free
-deb http://mirrors.ustc.edu.cn/debian stable-updates main contrib non-free
+deb https://opentuna.cn/debian/ buster main contrib non-free
+deb https://opentuna.cn/debian/ buster-updates main contrib non-free
+deb https://opentuna.cn/debian/ buster-backports main contrib non-free
+deb https://opentuna.cn/debian-security/ buster/updates main contrib non-free
+
+deb-src https://opentuna.cn/debian/ buster main contrib non-free
+deb-src https://opentuna.cn/debian/ buster-updates main contrib non-free
+deb-src https://opentuna.cn/debian/ buster-backports main contrib non-free
+deb-src https://opentuna.cn/debian-security/ buster/updates main contrib non-free
 ```
 
 

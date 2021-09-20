@@ -57,17 +57,42 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 ```
 yum makecache
 ```
-## debian换源
+### debian11 换源
 ```
-deb https://opentuna.cn/debian/ buster main contrib non-free
-deb https://opentuna.cn/debian/ buster-updates main contrib non-free
-deb https://opentuna.cn/debian/ buster-backports main contrib non-free
-deb https://opentuna.cn/debian-security/ buster/updates main contrib non-free
+deb http://mirrors.163.com/debian/ bullseye main non-free contrib
+deb-src http://mirrors.163.com/debian/ bullseye main non-free contrib
 
-deb-src https://opentuna.cn/debian/ buster main contrib non-free
-deb-src https://opentuna.cn/debian/ buster-updates main contrib non-free
-deb-src https://opentuna.cn/debian/ buster-backports main contrib non-free
-deb-src https://opentuna.cn/debian-security/ buster/updates main contrib non-free
+deb http://mirrors.163.com/debian/ bullseye-updates main contrib non-free
+deb-src http://mirrors.163.com/debian/ bullseye-updates main contrib non-free
+
+deb http://security.debian.org/debian-security bullseye-security main contrib non-free
+deb-src http://security.debian.org/debian-security bullseye-security main contrib non-free
+
+deb https://apt.atzlinux.com/atzlinux buster main contrib non-free
+
+deb https://mirrors.cloud.tencent.com/debian buster main contrib non-free
+deb https://mirrors.cloud.tencent.com/debian buster-updates main contrib non-free
+deb https://mirrors.cloud.tencent.com/debian buster-backports main contrib non-free
+deb https://mirrors.cloud.tencent.com/debian buster-proposed-updates main contrib non-free
+deb https://mirrors.cloud.tencent.com/debian buster-proposed-updates main contrib non-free
+deb https://mirrors.cloud.tencent.com/debian-security buster/updates main contrib non-free
+# deb-src https://mirrors.cloud.tencent.com/debian buster main contrib non-free
+# deb-src https://mirrors.cloud.tencent.com/debian buster-updates main contrib non-free
+# deb-src https://mirrors.cloud.tencent.com/debian buster-backports main contrib non-free
+# deb-src https://mirrors.cloud.tencent.com/debian buster-proposed-updates main contrib non-free
+# deb-src https://mirrors.cloud.tencent.com/debian-security buster/updates main contrib non-free
+
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-updates main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-backports main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian buster-proposed-updates main contrib non-free
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-backports main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian buster-proposed-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+
+deb http://deb.debian.org/debian/ bullseye main contrib non-free
+deb-src http://deb.debian.org/debian/ bullseye main contrib non-free
 ```
 
 

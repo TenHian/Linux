@@ -1,6 +1,11 @@
 # 基本上手
 
+[toc]
+
+
+
 ## 换源
+
 ### Ubuntu换源
 <font size=4>备份已有源<br>
 `sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup`<br>

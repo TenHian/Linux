@@ -29,7 +29,7 @@ git config --global user.email "git的邮箱"
 ssh -T git@github.com
 ```
 <font size=4>注：配置SSH用户后，git push命令可直接对远程的ssh源仓库修改，不用输入用户名密码；如是远程https的，可使用一下命令替换远程仓库类别为SSH类型,SSH链接在github你的repository的code按钮</font>   
-![github-code](https://raw.githubusercontent.com/TenHian/picbed/master/Linux/github-code.png?token=AN2ABMD2YWJYYEIDIPMHAG3B53KO2)
+![github-code](https://raw.githubusercontent.com/TenHian/picbed/master/Linux/github-code.png?token=AN2ABMESXOLWGDV7T5IWO5TB6PHNU)
 
 ```shell
 git remote -v  #查看当前使用的远程仓库类别
